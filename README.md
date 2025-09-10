@@ -57,14 +57,14 @@ POST /users
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "1234"
+  "name": "",
+  "email": "@gmail.com",
+  "password": "..."
 }
 
 ⚡ Notes
 
-users.json is automatically created if missing.
+users.json is automatically 
 
 password is currently stored in plain text (for demo purposes). In real apps, always hash passwords (e.g., with bcrypt).
 
